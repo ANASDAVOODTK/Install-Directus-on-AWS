@@ -56,6 +56,48 @@ Lastly, update your system variables:
 ```
 source ~/.profile
 ```
+# 4. Installation
+
+
+Run the following command in your terminal and follow the prompts.
+
+
+```
+npm init directus-project example-project
+```
+Choose SQLite from the list. Use up/down arrow keys to select the SQL type.
+
+```
+? Choose your database client SQLite
+```
+After that a file path for data.db, your database, will be suggested. Hit the enter key to stick with the default path.
+
+```
+? Database File Path: <file-path>/example-project/data.db
+```
+Next you'll set your username/email and password.
+
+```
+Create your first admin user:
+? Email: admin@example.com
+? Password: ********
+```
+After that, you're all set!
+
+```
+Your project has been created at <file-path>/example-project.
+The configuration can be found in <file-path>/example-project/.env
+```
+Once the installation is complete, you can start Directus by navigating to your project folder (in this case example-project) and running:
+
+```
+npx directus start
+```
+After that, you will see this message:
+
+```
+✨ Server started at http://localhost:8055
+```
 
  
 
